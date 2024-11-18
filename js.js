@@ -8,7 +8,7 @@ canvas.height = "3000"
 var width = canvas.width
 var height = canvas.height
 
-var cien =true//Math.random() > 0.5
+var cien =Math.random() > 0.5
 
 
  // true
@@ -73,7 +73,7 @@ var d2
 
 // IF CIEN TRUE 
 // HORIZONTAL - VERTICAL
-var horizontalvertical =true//Math.random() > 0.5
+var horizontalvertical =Math.random() > 0.5
 var sombrasi
 var sombrasi2
 
@@ -1032,7 +1032,7 @@ switch(texturas){
 					
 }
 
-//lineas()
+lineas()
 lineas2()
 setTimeout(cambiarColor,3000);
 setTimeout(marco, 6000)
