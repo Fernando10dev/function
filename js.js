@@ -8,12 +8,12 @@ canvas.height = "3000"
 var width = canvas.width
 var height = canvas.height
 
-var cien =Math.random() > 0.5
+var cien =true//Math.random() > 0.5
 
 
  // true
  // horizontal - vertical
-var variation2horizontal =Math.floor(Math.random() * 14) + 1;
+var variation2horizontal =Math.floor(Math.random() * 13) + 1;
 var variacion100unovertical=Math.floor(Math.random() * 6) + 1;
 var combinacion
 
@@ -73,7 +73,7 @@ var d2
 
 // IF CIEN TRUE 
 // HORIZONTAL - VERTICAL
-var horizontalvertical =Math.random() > 0.5
+var horizontalvertical =true//Math.random() > 0.5
 var sombrasi
 var sombrasi2
 
@@ -180,30 +180,24 @@ if(horizontalvertical==true){
 			d2 = -50.1199025185778737
 			break
 		case 10:
-			a2 = -1.9479058757424355
-			b2 = 4.6248723277822137
-			c2 = 0.2614407427608967
-			d2 = -13.9174839705228806
-			break
-		case 11:
 			a2 = -1.0973918689414859
 			b2 = -2.4711126433685422
 			c2 = 0.6726554213091731
 			d2 = -12.6599231036379933
 			break
-		case 12:
+		case 11:
 			a2 = 1.7256193142384291
 			b2 = 0.8642701217904687
 			c2 = 0.7318438403308392
 			d2 = -10.325949128717184
 			break
-		case 13:
+		case 12:
 			a2 = 0.05147037003189325
 			b2 = -5.2299857567995787
 			c2 = 2.1347210248932242
 			d2 = 10.3919143434613943
 			break
-		case 14:
+		case 13:
 			a2 = 0.28492845222353935
 			b2 = -1.9074416141957045
 			c2 = 1.2350000450387597
@@ -1038,7 +1032,7 @@ switch(texturas){
 					
 }
 
-lineas()
+//lineas()
 lineas2()
 setTimeout(cambiarColor,3000);
 setTimeout(marco, 6000)
